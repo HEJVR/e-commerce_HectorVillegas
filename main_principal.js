@@ -14,11 +14,13 @@ function cards() {
                         <h4> card ${i} </h4>
                         <p>Esta es la card número ${i}.</p>
                     </div>
+                    <a href="./producto.html"><button onclick="changeVariables(${i})">Ver más...</button></a>
+
             </div>
     `);
 
     }
-    
+
     // if (i == 1) {
     //     title = "BMW M5"
     //     price = "$500.000"
@@ -33,3 +35,4 @@ function cards() {
     document.querySelector("section").innerHTML = array.join().replaceAll(",", "");
 }
 cards();
+

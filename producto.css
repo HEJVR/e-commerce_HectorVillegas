@@ -1,0 +1,89 @@
+.titulo_principal{
+    text-align: center;
+    /* background-color: cadetblue; */
+}
+
+
+h2, h3, p{
+    font-family:'Times New Roman';
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    
+    /* background-color: blue; */
+}
+
+section .card{
+    border-radius: 35px;
+
+    /* background-color: green; */
+}
+
+section .card_content{
+    display: flex;
+    width:fit-content;
+    margin: 50px;
+
+    /* background-color: blueviolet; */
+}
+
+section .img_car{
+    width: 650px;
+    
+    /* background-color: brown; */
+}
+
+section .card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+section .text{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 25px;
+
+    /* background-color: chartreuse; */
+}
+
+section .text h2{
+    margin: 0 0 -15px 0;
+    /* background-color: aliceblue; */
+}
+
+section .text h3{
+    margin-bottom: 50px;
+    /* background-color: aliceblue; */
+}
+
+section .text p{
+    margin: 6px 0;
+    /* background-color: aliceblue; */
+}
+
